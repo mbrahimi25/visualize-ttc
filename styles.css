@@ -1,0 +1,35 @@
+g[id$="_Station"],
+g[id^="Line_1_Symbol_"],
+g[id^="Line_2_Symbol_"],
+g[id^="Line_3_Symbol_"],
+g[id^="Line_4_Symbol_"],
+g[id^="Line_5_Symbol_"],
+g[id^="Line_6_Symbol_"]
+{
+    transition: transform 0.15s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+} 
+
+g[id$="_Station"]:hover {
+    transform: scale(2.5);
+}
+
+g[id^="Line_1_Symbol_"]:hover,
+g[id^="Line_2_Symbol_"]:hover,
+g[id^="Line_3_Symbol_"]:hover,
+g[id^="Line_4_Symbol_"]:hover,
+g[id^="Line_5_Symbol_"]:hover,
+g[id^="Line_6_Symbol_"]:hover
+{
+    transform: scale(1.5);
+} /* Hover animations for all the stations and line terminus icons */
+
+.selected {
+  filter: drop-shadow(0 0 4px #000);
+} /* Drop shadow for when a station is selected */
+
+@font-face {
+  font-family: "Helvetica Compressed";
+  src: url("HelveticaCompressed.ttf") format("truetype");
+} /* Loads Helvetica Compressed font that the streetcar icons use */
