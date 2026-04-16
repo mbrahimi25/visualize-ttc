@@ -24,6 +24,8 @@ The map was then integrated into a web interface where JavaScript enables users 
 The project runs from the index.html file. The map.svg file is fetched and placed in the index.html file using JavaScript. From the index file, it is possible to
 hover and click on different stations.
 
+To view the project, download the repo. Because the SVG is placed in the HTML file using fetch(), browsers will block the fetch call, making the project invisible. Running from a local server, or even opening the index.html file in VS Code and viewing it from there will work.
+
 ## What's Next
 - Finish adding station data and information
 - Show each station's connection options to different subway, LRT, streetcar, and bus routes, as well as routes from other transit providers
