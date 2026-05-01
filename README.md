@@ -1,6 +1,7 @@
 # TTC Interactive Transit Map
 
 An interactive map of Toronto’s TTC subway and streetcar network, extended to include under-construction and proposed lines.
+Try it out [here](https://visualize-ttc.vercel.app/).
 
 ## Overview
 This project enhances the official TTC map by incorporating future transit expansions into a single, unified visualization. It combines graphic design and frontend development to create a more informative and engaging transit tool.
@@ -24,7 +25,9 @@ The map was then integrated into a web interface where JavaScript enables users 
 The project runs from the index.html file. The map.svg file is fetched and placed in the index.html file using JavaScript. From the index file, it is possible to
 hover and click on different stations.
 
-To view the project, download the repo. Because the SVG is placed in the HTML file using fetch(), browsers will block the fetch call, making the project invisible. Running from a local server, or even opening the index.html file in VS Code and viewing it from there will work.
+To view the project locally, download the repo. Because the SVG is placed in the HTML file using fetch(), browsers will block the fetch call, making the project invisible. Running from a local server, or even opening the index.html file in VS Code and viewing it from there will work.
+
+If you do not wish to do so, the project can also be viewed from [here](https://visualize-ttc.vercel.app/).
 
 ## What's Next
 - Finish adding station data and information
